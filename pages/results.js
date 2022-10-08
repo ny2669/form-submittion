@@ -1,8 +1,10 @@
 import React from 'react'
 
-const results = ({newAvatar}) => {
+const results = ({results}) => {
+
+  const {name, email, phone} = results
   return (
-    <div><h1>Hello! {newAvatar}</h1></div>
+    <div><h1>Hello! </h1></div>
   )
 }
 

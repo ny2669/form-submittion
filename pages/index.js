@@ -50,7 +50,7 @@ const [results, setResults] = useState([])
 
 const {log} = console
 
-log(results)
+
 
 const route = useRouter()
 
@@ -85,6 +85,7 @@ const formData = async () => {
   })
 
   const data = res.json()
+  log(data)
   setResults(data)
 
   setName('')
